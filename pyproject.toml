@@ -13,7 +13,7 @@ dependencies = [
     "zeroconf (>=0.148.0,<0.149.0)",
     "qrcode[pil] (>=8.2,<9.0)"
 ]
-
+package-mode = false
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
