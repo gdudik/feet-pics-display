@@ -6,7 +6,7 @@ authors = [
     {name = "Graham Dudik",email = "graham.dudik@athletic.net"}
 ]
 readme = "README.md"
-requires-python = "=3.11.14"
+requires-python = ">=3.11.9, <=3.11.14"
 dependencies = [
     "flask (>=3.1.3,<4.0.0)",
     "watchdog (>=6.0.0,<7.0.0)",
