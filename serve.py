@@ -240,7 +240,7 @@ def serve_image(filename):
 if __name__ == "__main__":
     IMAGE_FOLDER = Path(input("Paste folder containing images to be displayed: "))
     IMAGE_FOLDER.mkdir(parents=True, exist_ok=True)
-    hostname = input("Host name to crete? Server will be accessible at 'example.local:9999': ")
+    hostname = input("Host name to create? Server will be accessible at 'example.local:9999': ")
 
     observer = start_watcher()
 
